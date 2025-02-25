@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 const baseUrl =
 	process.env.NODE_ENV === 'development'
 		? 'http://localhost:8000/api/v1'
-		: 'http://pyc-trade-api-de5130f4c952.herokuapp.com/api/v1';
+		: 'https://pyc-trade-api-de5130f4c952.herokuapp.com/api/v1';
 
 console.log('baseUrl', baseUrl);
 export const apiSlice = createApi({
